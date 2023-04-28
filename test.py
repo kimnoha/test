@@ -36,7 +36,7 @@ def calculate_hand(hand):
 
 # 게임 실행 함수
 def play_game():
-    print('Welcome to Blackjack!')
+    print('블랙잭 게임에 오신걸 환영합니다!')
     shuffle_deck()
     player_hand = [deal_card(), deal_card()]
     dealer_hand = [deal_card(), deal_card()]
