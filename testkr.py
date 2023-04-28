@@ -6,7 +6,7 @@ suits = ['하트', '다이아몬드', '클로버', '스페이드']
 ranks = ['에이스', '2', '3', '4', '5', '6', '7', '8', '9', '10', '잭', '퀸', '킹']
 for suit in suits:
     for rank in ranks:
-        deck.append(suit + '의' + rank)
+        deck.append(rank + ' of ' + suit)
 
 # 카드 셔플링 함수
 def shuffle_deck():
